@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.jnegrel" name="jnegrel's Kodi add-ons" version="1.0.0" provider-name="jnegrel">
+  <extension point="xbmc.addon.repository" name="jnegrel's Kodi add-ons">
+    <dir>
+      <info compressed="false">https://jnegrel.github.io/kodi-addons/addons.xml</info>
+      <checksum>https://jnegrel.github.io/kodi-addons/addons.xml.md5</checksum>
+      <datadir zip="true">https://jnegrel.github.io/kodi-addons/zips/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Add-ons by jnegrel, with automatic updates</summary>
+    <summary lang="fr_FR">Extensions de jnegrel, avec mises à jour automatiques</summary>
+    <summary lang="nb_NO">Tillegg fra jnegrel, med automatiske oppdateringer</summary>
+    <summary lang="de_DE">Add-ons von jnegrel, mit automatischen Updates</summary>
+    <summary lang="es_ES">Complementos de jnegrel, con actualizaciones automáticas</summary>
+    <description lang="en_GB">Install this repository to get the add-ons of github.com/jnegrel, such as MET Norway (Yr) weather, and their updates.</description>
+    <description lang="fr_FR">Installez ce dépôt pour obtenir les extensions de github.com/jnegrel, comme la météo MET Norway (Yr), et leurs mises à jour.</description>
+    <description lang="nb_NO">Installer dette depotet for å få tilleggene fra github.com/jnegrel, som været fra MET Norway (Yr), og oppdateringene deres.</description>
+    <description lang="de_DE">Installieren Sie dieses Repository, um die Add-ons von github.com/jnegrel, etwa das Wetter von MET Norway (Yr), und ihre Updates zu erhalten.</description>
+    <description lang="es_ES">Instale este repositorio para obtener los complementos de github.com/jnegrel, como el tiempo de MET Norway (Yr), y sus actualizaciones.</description>
+    <platform>all</platform>
+    <license>GPL-3.0-or-later</license>
+    <source>https://github.com/jnegrel/kodi-addons</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+<addon id="weather.metno" name="MET Norway (Yr)" version="0.3.0" provider-name="jene">
+  <requires>
+    <import addon="xbmc.python" version="3.0.1"/>
+  </requires>
+  <extension point="xbmc.python.weather" library="default.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Weather forecast from MET Norway, the data behind Yr</summary>
+    <summary lang="fr_FR">Prévisions météo de MET Norway, les données de Yr</summary>
+    <summary lang="nb_NO">Værvarsel fra Meteorologisk institutt, dataene bak Yr</summary>
+    <summary lang="de_DE">Wettervorhersage von MET Norway, die Daten hinter Yr</summary>
+    <summary lang="es_ES">Previsión meteorológica de MET Norway, los datos de Yr</summary>
+    <description lang="en_GB">Current weather, hourly forecast and a 10-day forecast from the Norwegian Meteorological Institute (api.met.no), with sunrise and sunset, and radar-based precipitation for the next 2 hours in the Nordic countries. Works for any place in the world. Places are searched with Kartverket (Norway) and OpenStreetMap. Weather warnings from MET for Norway, with a notification when a new one is issued.</description>
+    <description lang="fr_FR">Météo actuelle, prévisions heure par heure et sur 10 jours de l'Institut météorologique norvégien (api.met.no), avec lever et coucher du soleil, et précipitations des 2 prochaines heures d'après le radar dans les pays nordiques. Fonctionne partout dans le monde. Les lieux sont cherchés avec Kartverket (Norvège) et OpenStreetMap. Vigilances météo de MET pour la Norvège, avec une notification à chaque nouvelle vigilance.</description>
+    <description lang="nb_NO">Været nå, time for time og for 10 dager fra Meteorologisk institutt (api.met.no), med soloppgang og solnedgang, og nedbør de neste 2 timene fra radar i Norden. Virker for alle steder i verden. Steder søkes med Kartverket (Norge) og OpenStreetMap. Farevarsler fra MET for Norge, med et varsel når et nytt farevarsel sendes ut.</description>
+    <description lang="de_DE">Aktuelles Wetter, stündliche Vorhersage und 10-Tage-Vorhersage des Norwegischen Meteorologischen Instituts (api.met.no), mit Sonnenauf- und -untergang sowie Niederschlag der nächsten 2 Stunden nach Radar in den nordischen Ländern. Funktioniert für jeden Ort der Welt. Orte werden mit Kartverket (Norwegen) und OpenStreetMap gesucht. Unwetterwarnungen von MET für Norwegen, mit einer Benachrichtigung bei jeder neuen Warnung.</description>
+    <description lang="es_ES">Tiempo actual, previsión por horas y a 10 días del Instituto Meteorológico de Noruega (api.met.no), con salida y puesta del sol, y precipitación de las próximas 2 horas según el radar en los países nórdicos. Funciona en cualquier lugar del mundo. Los lugares se buscan con Kartverket (Noruega) y OpenStreetMap. Avisos meteorológicos de MET para Noruega, con una notificación cuando se emite uno nuevo.</description>
+    <disclaimer lang="en_GB">Weather data from MET Norway, licensed under CC BY 4.0. Place names from Kartverket and © OpenStreetMap contributors. This add-on is not made by MET Norway or NRK.</disclaimer>
+    <platform>all</platform>
+    <license>GPL-3.0-or-later</license>
+    <source>https://github.com/jnegrel/kodi-weather-metno</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+    <news>0.3.0: weather warnings (MetAlerts): notification, warning in the weather window, full text in the settings
+0.2.1: keeps the last forecast when a download is cut off; today shows the whole day's high and low, also late in the evening
+0.2.0: sunrise and sunset, precipitation in the next 2 hours from the radar (Nordic countries), French, Norwegian, German and Spanish
+0.1.0: first version</news>
+  </extension>
+</addon>
+</addons>

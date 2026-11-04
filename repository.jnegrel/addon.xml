@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.jnegrel" name="jnegrel's Kodi add-ons" version="1.0.0" provider-name="jnegrel">
+  <extension point="xbmc.addon.repository" name="jnegrel's Kodi add-ons">
+    <dir>
+      <info compressed="false">https://jnegrel.github.io/kodi-addons/addons.xml</info>
+      <checksum>https://jnegrel.github.io/kodi-addons/addons.xml.md5</checksum>
+      <datadir zip="true">https://jnegrel.github.io/kodi-addons/zips/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Add-ons by jnegrel, with automatic updates</summary>
+    <summary lang="fr_FR">Extensions de jnegrel, avec mises à jour automatiques</summary>
+    <summary lang="nb_NO">Tillegg fra jnegrel, med automatiske oppdateringer</summary>
+    <summary lang="de_DE">Add-ons von jnegrel, mit automatischen Updates</summary>
+    <summary lang="es_ES">Complementos de jnegrel, con actualizaciones automáticas</summary>
+    <description lang="en_GB">Install this repository to get the add-ons of github.com/jnegrel, such as MET Norway (Yr) weather, and their updates.</description>
+    <description lang="fr_FR">Installez ce dépôt pour obtenir les extensions de github.com/jnegrel, comme la météo MET Norway (Yr), et leurs mises à jour.</description>
+    <description lang="nb_NO">Installer dette depotet for å få tilleggene fra github.com/jnegrel, som været fra MET Norway (Yr), og oppdateringene deres.</description>
+    <description lang="de_DE">Installieren Sie dieses Repository, um die Add-ons von github.com/jnegrel, etwa das Wetter von MET Norway (Yr), und ihre Updates zu erhalten.</description>
+    <description lang="es_ES">Instale este repositorio para obtener los complementos de github.com/jnegrel, como el tiempo de MET Norway (Yr), y sus actualizaciones.</description>
+    <platform>all</platform>
+    <license>GPL-3.0-or-later</license>
+    <source>https://github.com/jnegrel/kodi-addons</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
