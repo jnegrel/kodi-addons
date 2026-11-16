@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.asi" name="@si - Arrêt sur images" version="0.1.0" provider-name="jene">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="fr_FR">Les émissions d'Arrêt sur images</summary>
+    <summary lang="en_GB">The shows of Arrêt sur images, the French media watchdog</summary>
+    <description lang="fr_FR">Les vidéos d'Arrêt sur images (arretsurimages.net) : le 7/8, l'émission, les interviews, Proxy, Post-pop et les archives depuis 2008, par émission, par thème ou par recherche. Les vidéos gratuites se regardent sans compte ; les abonnés entrent leur adresse e-mail et leur mot de passe dans les réglages pour voir les vidéos en entier, sinon c'est l'extrait gratuit qui est montré.</description>
+    <description lang="en_GB">The videos of Arrêt sur images (arretsurimages.net), the French media watchdog: the 7/8 morning show, the weekly show, interviews, Proxy, Post-pop and the archives since 2008, by show, by theme or by search. Free videos play without an account; subscribers enter their e-mail address and password in the settings to watch the full videos, otherwise the free excerpt is shown.</description>
+    <disclaimer lang="fr_FR">Extension non officielle, qui n'est pas faite par Arrêt sur images. Les vidéos réservées aux abonnés demandent un abonnement à arretsurimages.net.</disclaimer>
+    <disclaimer lang="en_GB">Unofficial add-on, not made by Arrêt sur images. Subscriber videos need a subscription to arretsurimages.net.</disclaimer>
+    <language>fr</language>
+    <platform>all</platform>
+    <license>GPL-3.0-or-later</license>
+    <website>https://www.arretsurimages.net</website>
+    <source>https://github.com/jnegrel/kodi-asi</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+    </assets>
+    <news>0.1.0: first version, for the new arretsurimages.net (API and PeerTube videos)</news>
+  </extension>
+</addon>
 <addon id="repository.jnegrel" name="jnegrel's Kodi add-ons" version="1.0.0" provider-name="jnegrel">
   <extension point="xbmc.addon.repository" name="jnegrel's Kodi add-ons">
     <dir>

@@ -5,6 +5,7 @@ A [Kodi](https://kodi.tv) repository: install it once, and Kodi keeps its add-on
 | Add-on | |
 |---|---|
 | [MET Norway (Yr)](https://github.com/jnegrel/kodi-weather-metno) | Weather from MET Norway, the data behind Yr, with warnings and radar rain for the next 2 hours |
+| @si - Arrêt sur images | The videos of [Arrêt sur images](https://www.arretsurimages.net): free videos without an account, full videos for subscribers |
 
 ## Install
 
@@ -15,7 +16,7 @@ A [Kodi](https://kodi.tv) repository: install it once, and Kodi keeps its add-on
 3. *Settings → Add-ons → Install from zip file → jnegrel →* `repository.jnegrel-1.0.0.zip`.
    (Or download that zip from the address above and install it from a USB stick.)
 4. *Install from repository → jnegrel's Kodi add-ons*, then the add-on, e.g.
-   *Weather → MET Norway (Yr) → Install*.
+   *Weather → MET Norway (Yr) → Install*, or *Video add-ons → @si - Arrêt sur images → Install*.
 
 Kodi then checks the repository at startup and once a day, and installs new versions by
 itself (*Settings → System → Add-ons → Updates*: *Install updates automatically*, the default).
