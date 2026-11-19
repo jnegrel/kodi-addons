@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.asi" name="@si - Arrêt sur images" version="0.1.0" provider-name="jene">
+<addon id="plugin.video.asi" name="@si - Arrêt sur images" version="0.1.1" provider-name="jene">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
@@ -23,7 +23,8 @@
       <icon>resources/icon.png</icon>
       <fanart>resources/fanart.jpg</fanart>
     </assets>
-    <news>0.1.0: first version, for the new arretsurimages.net (API and PeerTube videos)</news>
+    <news>0.1.1: subscribers are recognised (no more "excerpt" marks, "Account: subscriber")
+0.1.0: first version, for the new arretsurimages.net (API and PeerTube videos)</news>
   </extension>
 </addon>
 <addon id="repository.jnegrel" name="jnegrel's Kodi add-ons" version="1.0.0" provider-name="jnegrel">
